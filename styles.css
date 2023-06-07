@@ -1,0 +1,131 @@
+.container {
+    background-color: rgb(226, 226, 225);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+
+.country-name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white; 
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: max-content;
+    background-image: linear-gradient(270deg, grey, rgb(212, 208, 208));
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    > .card-body {
+           color: white;
+    }
+    
+}
+
+.btn {
+    background-color: transparent;   
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cardNode.innerHTML = `
+<div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+<div class="card">
+<div class="country-name">
+    <p class="fs-3">${_d.name.common}</p>
+</div>
+<img src="${_d.flags.png}" 
+height="230px"
+
+style="border-radius: 10px; padding: 10px; object-fit: cover;"
+class="card-img-top" alt="${_d.name.common}">
+<div class="card-body">
+    
+  <p>Capital : ${_d.capital}</p>
+  <p>Region : ${_d.region}</p>
+  <p>Country code : ${_d.fifa}</p>
+  <button class="btn btn-primary" id="butt" type="submit">Click for Weather</button>
+  
+</div>
+</div>
+</div> `;
+
+
+
+
+
+<!-- <div class="card">
+                            <div class="country-name">
+                                <p class="fs-3">India</p>
+                            </div>
+                            <!-- <img src="https://flagcdn.com/w320/in.png"  -->
+                            height="230px"
+                            
+                            style="border-radius: 10px; padding: 10px; object-fit: cover;"
+                            class="card-img-top" alt="India">
+                            <div class="card-body">
+                                
+                              <p>Capital : Delhi</p>
+                              <p>Region : Asia</p>
+                              <p>Country code: IND</p>
+                              <button class="btn btn-primary" id="butt" type="submit">Click for Weather</button>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+                       
+                    </div> 
+                
+                  
+                </div>
+            </section>
+    </div>
+    
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+*/
